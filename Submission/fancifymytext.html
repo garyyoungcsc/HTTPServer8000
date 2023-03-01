@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fancify Shamcify</title>
+
+		<!-- link to your script file here -->
+		<script
+		src="fancifymytext.js">
+		</script>
+	</head>
+
+	<body>
+		<h1>Fancify my Text</h1>
+		
+
+		<!-- Your UI controls go here -->
+		<fieldset>
+			<legend>Text</legend>
+			<textarea name="Text" id="text" cols="30" rows="4"></textarea>
+		</fieldset>
+
+		<fieldset>
+			<legend>Fancify</legend>
+			<button onclick="textFunction()" type="button">
+				Bigger
+			</button>
+			<input onchange="styleFunction()" type="radio" id="fancyshmancy" name="test" value="F">
+    		<label for="fancyshmancy">FancyShmancy</label><br>
+
+			<input onchange="reverseFunction()" type="radio" id="boringbetty" name="test" value="B">
+    		<label for="boringbetty">BoringBetty</label><br>
+			<button onclick="uppercaseFunction()" type="button">
+				Moo
+			</button>
+		</fieldset>
+	</body>
+</html>
